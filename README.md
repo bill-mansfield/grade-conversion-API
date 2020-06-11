@@ -1,8 +1,8 @@
 # grade-conversion-API
 Rock climbing grade conversion API
 
-Node.js
-Express.js
+Node.js ~
+Express.js ~
 Netlify functions
 
 Root: https://clever-shaw-65e5d6.netlify.app/.netlify/functions/api/
