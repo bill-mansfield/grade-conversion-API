@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "start": "./node_modules/.bin/netlify-lambda serve src",
-      "build": "./node_modules/.bin/netlify-lambda build src"
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/bill-mansfield/grade-conversion-API#readme",
   "dependencies": {
+    "climbing-grade": "^1.1.1",
     "express": "^4.17.1",
     "netlify-lambda": "^1.6.3",
     "serverless-http": "^2.5.0"
