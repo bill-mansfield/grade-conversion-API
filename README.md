@@ -6,7 +6,6 @@ Express.js ~
 Netlify functions
 
 Example: https://clever-shaw-65e5d6.netlify.app/.netlify/functions/api/?grade=29&from=australian&to=french
-Root: https://clever-shaw-65e5d6.netlify.app/.netlify/functions/api/
 
 Usage:
 
