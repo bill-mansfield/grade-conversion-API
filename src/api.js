@@ -1,12 +1,11 @@
 const express = require('express')
 const serverless = require('serverless-http')
+const { getConversion } = require('./converter')
 
 const app = express()
 const router = express.Router()
-const { getConversion } = require('./converter')
 
 router.get('/', (req, res) => {
-
     let grade = req.query.grade
     let from = req.query.from
     let to = req.query.to

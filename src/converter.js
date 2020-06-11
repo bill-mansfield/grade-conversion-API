@@ -2,5 +2,9 @@ const ClimbingGrade = require('climbing-grade');
 
 exports.getConversion = (grade, fromSystem, toSystem) => {
     const convertedGrade = new ClimbingGrade(grade, fromSystem);
-    return convertedGrade.format(toSystem)
+
+    let conversionObj = {}
+    conversionObj.convertedGrade = convertedGrade.format(toSystem)
+        
+    return conversionObj 
 }
