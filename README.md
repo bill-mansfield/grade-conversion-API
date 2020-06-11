@@ -1,19 +1,20 @@
 # grade-conversion-API
 Rock climbing grade conversion API
 
-Simple single endpoint API
-
 Node.js
-express.js
-Netlify
+Express.js
+Netlify functions
 
 Root: https://clever-shaw-65e5d6.netlify.app/.netlify/functions/api/
+
+Usage:
 
     Params:
         ?grade = climbing grade
         ?from = define current grading system grade exists in
         ?to = to desired grading system
 
+Available grading systems and examples
 
     Systems:
         french
