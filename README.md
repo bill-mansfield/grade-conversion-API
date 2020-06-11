@@ -5,6 +5,7 @@ Node.js ~
 Express.js ~
 Netlify functions
 
+Example: https://clever-shaw-65e5d6.netlify.app/.netlify/functions/api/?grade=29&from=australian&to=french
 Root: https://clever-shaw-65e5d6.netlify.app/.netlify/functions/api/
 
 Usage:
@@ -27,7 +28,7 @@ Available grading systems and examples
         yds
 
 
-    Examples:
+    More Examples:
         https://clever-shaw-65e5d6.netlify.app/.netlify/functions/api/?grade=29&from=australian&to=french // 8a
         https://clever-shaw-65e5d6.netlify.app/.netlify/functions/api/?grade=8a&from=french&to=australian // 29
         https://clever-shaw-65e5d6.netlify.app/.netlify/functions/api/?grade=5.12a&from=yds&to=british // E4 6b
